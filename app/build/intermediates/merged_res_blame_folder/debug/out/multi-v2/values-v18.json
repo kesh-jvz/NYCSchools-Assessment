@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.nycschools.app-mergeDebugResources-45:/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\keshi\\.gradle\\caches\\transforms-3\\821651b027f92c297375eeffa121f1e2\\transformed\\appcompat-1.6.0\\res\\values-v18\\values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/schoolsFragment">
+
+    <fragment
+        android:id="@+id/schoolsFragment"
+        android:name="com.example.nycschools.fragments.SchoolsFragment"
+        android:label="Nyc School Names"
+        tools:layout="@layout/fragment_schools" >
+        <action
+            android:id="@+id/action_schoolsFragment_to_schoolsDetailFragment"
+            app:destination="@id/schoolsDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/schoolsDetailFragment"
+        android:name="com.example.nycschools.fragments.SchoolsDetailFragment"
+        android:label="Result"
+        tools:layout="@layout/fragment_schools_detail" >
+        <argument
+            android:name="dbn"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+</navigation>

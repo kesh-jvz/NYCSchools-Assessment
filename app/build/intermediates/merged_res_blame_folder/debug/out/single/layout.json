@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.example.nycschools.app-mergeDebugResources-46:/layout/schools_item_layout.xml",
+        "source": "com.example.nycschools.app-main-49:/layout/schools_item_layout.xml"
+    },
+    {
+        "merged": "com.example.nycschools.app-mergeDebugResources-46:/layout/fragment_schools_detail.xml",
+        "source": "com.example.nycschools.app-main-49:/layout/fragment_schools_detail.xml"
+    },
+    {
+        "merged": "com.example.nycschools.app-mergeDebugResources-46:/layout/fragment_schools.xml",
+        "source": "com.example.nycschools.app-main-49:/layout/fragment_schools.xml"
+    },
+    {
+        "merged": "com.example.nycschools.app-mergeDebugResources-46:/layout/activity_main.xml",
+        "source": "com.example.nycschools.app-main-49:/layout/activity_main.xml"
+    }
+]
